@@ -25,7 +25,7 @@ class UserFailedLoginAttempt {
     /** @Column(type="string") */
     private $twoFactorFailure;
 
-    /** @Column(type="number", length=2) */
+    /** @Column(type="integer", length=2) */
     private $sequentialFailNo;
 }
 

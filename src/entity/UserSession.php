@@ -20,7 +20,7 @@ class UserSession {
     /** @Column(type="datetime") */
     private $lastActivity;              // Last time user did anything
 
-    /** @Column(type="number") */
+    /** @Column(type="integer") */
     private $sessionTimeout;            // Time until session expires
 
     /** @Column(type="string") */
@@ -29,13 +29,13 @@ class UserSession {
     /** @Column(type="datetime") */
     private $phpSessionIdCreated;       // Time that session id was generated
 
-    /** @Column(type="number") */
+    /** @Column(type="integer") */
     private $phpSessionIdTimeout;       // Time until key needs changed.
 
     /** @Column(type="string") */
     private $rememberMe;                // Timeout / Don't Timeout
 
-    /** @Column(type="number") */
+    /** @Column(type="integer") */
     private $rememberMeTimeout;         // Max length a rememberMe will last.
 
     /** @Column(type="boolean") */

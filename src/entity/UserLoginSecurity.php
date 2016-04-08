@@ -13,13 +13,13 @@ class UserLoginSecurity {
     /** @Column(type="datetime") */
     private $lastLoginAttempt;
 
-    /** @Column(type="number") */
+    /** @Column(type="integer") */
     private $sequentialFailedLogins;
 
     /** @Column(type="boolean") */
     private $rateLimited;
 
-    /** @Column(type="number") */
+    /** @Column(type="integer") */
     private $timeUntilNextAttempt;
 }
 ?>
