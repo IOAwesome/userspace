@@ -7,7 +7,7 @@ class Auth
     {
         echo "<br />Construct";
         if( count($args) > 0 ) {
-            foreach ($args as $key -> $val) {
+            foreach ($args as $key => $val) {
                 echo sprintf("Key: %s Val: %s <br />", $key, $val);
             }
         }
