@@ -124,7 +124,6 @@ class User {
     {
         return $this->enabled;
     }
-
     public function setEnabled($enabled)
     {
         $this->enabled = $enabled;
