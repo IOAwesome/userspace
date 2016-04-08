@@ -4,7 +4,7 @@
  * @Entity
  */
 class User {
-    /** @Id @Column(type="string", length=8 */
+    /** @Id @Column(type="string", length=8) */
     private $id;
 
     /** @Column(type="string") */

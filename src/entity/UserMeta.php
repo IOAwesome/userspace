@@ -4,10 +4,10 @@
 * @Entity
 */
 class UserMeta {
-    /** @Column(type="string") */
+    /** @Id @Column(type="string", length=8) */
     private $id;
     
-    /** @Column(type="string") */
+    /** @Column(type="string", length=8) */
     private $userId;
     
     /** @Column(type="string") */
