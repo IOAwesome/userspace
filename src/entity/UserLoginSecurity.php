@@ -1,4 +1,8 @@
 <?php
+
+/**
+ * @Entity
+ */
 class UserLoginSecurity {
     /** @Id @Column(type="string", length=8) */
     private $id;

@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * @Entity
+ */
 class UserSession {
     
     /** @Id @Column(type="string", length=8) */

@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * @Entity
+ */
 class UserPasswordResetKey {
     /** @Id @Column(type="string", length=8) */
     private $id;
